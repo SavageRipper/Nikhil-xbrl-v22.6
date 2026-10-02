@@ -1,0 +1,21 @@
+MCA C&I XBRL Web Tool V22.6 BUILD MANIFEST
+Version: 22.6.0
+Build timestamp (UTC): 2026-10-02T02:54:36.307733+00:00
+Source baseline: MCA_CI_XBRL_Web_Tool_V22_5_Final_GitHub_Ready_ImportFix.zip
+Production runtime: index.html -> app-bundled.js; authority data embedded in bundle
+Release status: packaged V22.6 production candidate; not declared MCA-certified or final-complete because browser certification was unavailable
+
+Included production/release files:
+- index.html	2823 bytes	SHA256 fa0b19bef318f5cf3ebf684a9d075a3fb6fff4bd307a295f909a4d27f827ecd8
+- app.js	861561 bytes	SHA256 4d8958f5e23c61a0eca5e934ee63bcaa4bd6851a6c690873b1635a75c0adc6d1
+- app-bundled.js	5073204 bytes	SHA256 1cc1ec67554fe3b7e43df288dcb0f76cb38fbd3eb87c617e66820d7e781ebc45
+- styles.css	21963 bytes	SHA256 c40886851d42f48671c738a7b5776e1ef081a20a1968d3dee64b08b14a908779
+- VERSION.txt	7 bytes	SHA256 302185a2983c119ddde734df6abd657efa91735f61619d5df0fdda816a65a67e
+- README.md	1291 bytes	SHA256 48bd00263ea43bbcb14785d9571cad8634faf9c70cda2849956b00ab24f6df77
+- V22.6_FINAL_RELEASE_REPORT.md	9581 bytes	SHA256 d32e75079daeb00659ab3589294afd6f64154ead904686760d7bb99714cd4502
+
+Authority/deployment checks:
+- app-bundled.js contains window.MCA_DATA
+- index.html uses app-bundled.js?v=22.6.0
+- no V22.3/V22.4/V22.5 runtime identity strings in index.html/app.js/app-bundled.js
+- MCA_CNI_AUTHORITY/ and fixtures/ are not required by the bundled production page
